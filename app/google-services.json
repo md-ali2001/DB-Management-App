@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402161631961",
+    "project_id": "uninstall-d5957",
+    "storage_bucket": "uninstall-d5957.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402161631961:android:14233492b4fad82f69b4c8",
+        "android_client_info": {
+          "package_name": "com.alimasood.uninstall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402161631961-lhf3e7so2k1l7omv6017ti3s5t5sg6tj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7M4sm6ZeNZmb6kd1IRinJDUBEveZFPo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402161631961-lhf3e7so2k1l7omv6017ti3s5t5sg6tj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
