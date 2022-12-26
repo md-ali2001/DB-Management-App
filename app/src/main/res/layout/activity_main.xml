@@ -14,7 +14,7 @@
         android:layout_height="0dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:weightSum="20"
+        android:weightSum="16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.3"
+            style="@style/TextAppearance.AppCompat.Small"
 
 
             android:hint="ROLL NO."
@@ -31,11 +32,11 @@
 
         <EditText
             android:id="@+id/fname"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:hint="FIRST NAME"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.3"
-
-            android:hint="FIRST NAME"
             android:inputType="textPersonName" />
 
         <EditText
@@ -43,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.3"
+            style="@style/TextAppearance.AppCompat.Small"
 
             android:hint="SECOND NAME"
             android:inputType="textPersonName" />
@@ -52,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.3"
+            style="@style/TextAppearance.AppCompat.Small"
 
             android:hint="D.O.B."
             android:inputType="textPersonName" />
@@ -60,7 +63,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.3" />
+            android:layout_weight="0.07" />
 
         <Button
             android:id="@+id/button"
@@ -72,13 +75,13 @@
             android:textColor="@color/white"
             android:text="REGISTER"
 
-            android:textSize="20dp" />
+            style="@android:style/Widget.Material.Button.Small" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.3" />
+            android:layout_weight="0.04" />
 
         <Button
             android:id="@+id/updateshow"
@@ -86,22 +89,24 @@
             android:layout_height="0dp"
             android:layout_weight="1.3"
             android:backgroundTint="@android:color/black"
+            style="@android:style/Widget.Material.Button.Small"
             android:textColor="@color/white"
             android:onClick="updateshowfunc"
             android:text="SHOW"
-            android:textSize="20dp" />
+       />
 
-        <EditText
+        <TextView
             android:id="@+id/editTextTextPersonName5"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.3"
+            android:layout_weight="0.08"
             android:ems="10"
             android:inputType="textPersonName"
             />
 
         <EditText
             android:id="@+id/updateroll"
+            style="@style/TextAppearance.AppCompat.Small"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.3"
@@ -112,7 +117,7 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_weight="0.2"
+            android:layout_weight="0.08"
             android:layout_height="0dp"
             />
 
@@ -120,22 +125,23 @@
             android:id="@+id/delfunc"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1.2"
+            android:layout_weight="1.3"
             android:backgroundTint="@android:color/black"
             android:textColor="@color/white"
+            style="@android:style/Widget.Material.Button.Small"
             android:onClick="delfunc"
-            android:textSize="17.5dp"
+
             android:text="DELETE" />
 
         <TextView
             android:id="@+id/data"
 
+            style="@style/TextAppearance.AppCompat.Small"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:textColor="#3F51B5"
+            android:layout_weight="2.9"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:layout_weight="5" />
+            android:textColor="#3F51B5" />
 
         <Button
             android:id="@+id/button2"
@@ -146,23 +152,23 @@
             android:backgroundTint="@android:color/black"
             android:textColor="@color/white"
             android:text="FETCH CURRENT REGISTRATIONS"
-            android:textSize="20dp" />
+            style="@android:style/Widget.Material.Button.Small" />
 
         <TextView
             android:id="@+id/textView55"
 
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.4" />
+            android:layout_weight="0.08" />
 
         <Button
             android:id="@+id/clearb"
+            style="@android:style/Widget.Material.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.3"
             android:onClick="clearf"
-            android:text="CLEAR FORM"
-            android:textSize="20dp" />
+            android:text="CLEAR FORM" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
